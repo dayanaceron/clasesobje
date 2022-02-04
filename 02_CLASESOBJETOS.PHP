@@ -41,7 +41,30 @@
 
     }
 
+     //metodos getters y setters
+
+     public function getmarca(){
+     return $this->marca;
+
+    }
+    //setter asignar la informacion al atributo marca
+    public function setmarca($marca){
+        $this->marca =$marca;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
 ?>
 
 
